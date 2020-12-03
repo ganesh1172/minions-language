@@ -1,6 +1,9 @@
-var userInput = document.querySelector("#trans_btn");
+var userClick = document.querySelector("#trans_btn");
+var txtInput = document.querySelector("#txt_input");
 
 function showOutput() {
-    console.log("click");
+    var userInput = txtInput.value;
+    console.log("Welcome " + userInput);
 }
-userInput.addEventListener("click", showOutput);
+
+userClick.addEventListener("click", showOutput);

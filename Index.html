@@ -5,9 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minion's Language</title>
+    <style>
+        textarea {
+            display: block;
+            width: 80%;
+            margin: 1rem;
+            padding: 1rem;
+        }
+
+        button {
+            padding: 0.5rem;
+            margin: 0 1rem;
+            border: 1px solid red;
+            border-radius: 5px;
+            color: #ffffff;
+            font-weight: 400;
+            font-size: large;
+            color: royalblue;
+            background-color: rgb(255, 240, 240);
+            cursor: pointer;
+        }
+    </style>
 </head>
 
 <body>
+    <textarea placeholder="put text which you want to translate" id="txt_input"></textarea>
     <button id="trans_btn">Translate</button>
     <script src="Script.js"></script>
 </body>
